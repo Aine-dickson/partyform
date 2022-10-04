@@ -137,7 +137,7 @@ confimWindowControl[1].addEventListener("click", ()=>{
 })
 confimWindowControl[0].addEventListener("click", ()=>{
     message = JSON.parse(message) 
-    window.location.href = `https://wa.me/?text=Name:%20${message.name}%0AE-mail:%20${message.email}%0ACourse:%20${message.course}%0AGender:%20${message.sex}`
+    window.location.href = `https://wa.me/2567506337924?text=Name:%20${message.name}%0AE-mail:%20${message.email}%0ACourse:%20${message.course}%0AGender:%20${message.sex}`
 })  
 
 
