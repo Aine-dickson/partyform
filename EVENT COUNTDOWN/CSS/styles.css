@@ -1,0 +1,168 @@
+.fa-close{
+    position: absolute;
+    right: 2rem;
+}
+.guide{
+    color: red;
+    font-size: medium;
+    font-weight: lighter;
+    font-family: monospace;
+}
+.hidden{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.countdown-box{
+    border: 0.1rem gray solid;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+main{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.1rem green solid;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.list{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.time{
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+    background-color: rgb(210, 205, 205);
+    color: white;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0.1rem 0.1rem gray;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+#order{
+    background-color: purple;
+    padding: 00.3rem;
+    border: 0.1rem gray solid;
+    border-radius: 0.2rem;
+    color:  white;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.1rem rgb(174, 168, 168) solid;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    width: 2.3rem;
+    height: 2.3rem;
+    box-shadow: 0 0 0.1rem 0.1rem rgb(174, 168, 168);
+}
+.val{
+    font-size: large;
+    color: rgb(114, 71, 114);
+    margin-bottom: 0.3rem;
+    font-weight: bolder;
+}
+.month{
+    font-size: small;
+    color: rgb(174, 168, 168);
+    font-weight: bold;
+}
+
+form{
+    margin: auto;
+    width: 80%;
+    margin-top: 2rem;
+}
+fieldset{
+    border: 0;
+    margin-bottom: 0.3rem;
+}
+.sex{
+    border: 0.1rem green solid;
+    border-radius: 0.4rem;
+}
+input,
+input:focus{
+    border: 0;
+    border-bottom: 0.1rem green solid;
+    outline: none;
+    padding: 0.2rem;
+    font-size: medium;
+    margin-bottom: 0.3rem;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+button{
+    padding: 0.2rem;
+    background-color: purple;
+    border: 0.1rem green solid;
+    border-radius: 0.2rem;
+    color: white;
+    margin-left: 2rem;
+}
+select{
+    padding: 0.2rem;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 0.2rem;
+    border: 0.1rem green solid;
+}
+.confirm{
+    padding: 0.5rem;
+    box-shadow: 0 0 0.4rem 0.1rem green;
+    background-color: aliceblue;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+    z-index: 2;
+}
+.head{
+    color: green;
+    font-style: oblique;
+    font-weight: bold;
+}
+.infor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.2rem;
+}
+.infor > div{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.infor > div > span{
+    margin-bottom: 0.3rem;
+    
+}
+.take-way{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.take-way > button{
+    margin: 00.5rem;
+    border: 0;
+    background-color: green;
+    padding: 00.2rem;
+    color: rgb(245, 238, 238);
+}
