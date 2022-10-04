@@ -1,1 +1,108 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTDOWN</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="countdown-box">
+            <header>
+                <span><h2>PARTY</h2></span>
+                <span>Live at Lido Beach</span>
+            </header>
+            <main>
+                <div class="list">
+                    <span>DAYS</span>
+                    <span class="time"></span>
+                </div>
+                <div class="list">
+                    <span>HRS</span>
+                    <span class="time"></span>
+                </div>
+                <div class="list">
+                    <span>MIN</span>
+                    <span class="time"></span>
+                </div>
+                <div class="list">
+                    <span>SEC</span>
+                    <span class="time"></span>
+                </div>
+            </main>
+            <footer>
+                <span id="order">Purchase Ticket</span>
+                <div class="date">
+                    <span class="val">27</span>
+                    <span class="month">Nov</span>
+                </div>
+            </footer>
+        </div>
+        <section class="form hidden">
+            <span class="close"><i class="fas fa-close">X</i></span>
+            <form action="#">
+                <fieldset class="name">
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="Enter your full name">
+                    <span class="guide hidden">Enter both names separarting them with  space!</span>
+                </fieldset>
+                <fieldset class="email">
+                    <label for="mail"></label>
+                    <input type="email" id="mail" placeholder="Enter your email">
+                    <span class="guide hidden">Enter valid email!</span>
+                </fieldset>
+                <fieldset class="course">
+                    <label for="course">COURSE:</label>
+                    <select name="course" id="course">
+                        <option value="bitc">BITC</option>
+                        <option value="bis">BIS</option>
+                        <option value="dcs">DCS</option>
+                    </select>
+                </fieldset>
+                <fieldset class="sex">
+                    <legend>SEX</legend>
+                    <span>
+                        <input type="radio" name="sex" value="male" class="radio" id="male" required>
+                        <label for="male">Male</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="sex" value="female" class="radio" id="female" required>
+                        <label for="female">Female</label>
+                    </span>
+                </fieldset>
+                <fieldset class="btn">
+                    <button type="submit">REQUEST</button>
+                    <button type="reset">RESET</button>
+                </fieldset>
+            </form>
+        </section>
+        <section class="confirm hidden">
+            <div class="head">
+                <span>Confirm whether the provided information is correct!</span>
+            </div>
+            <div class="infor">
+                <div class="field-names">
+                    <span>Name:</span>
+                    <span>E-mail:</span>
+                    <span>Course:</span>
+                    <span>Sex:</span>
+                </div>
+                <div class="field-values">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="take-way">
+                <button>Okay</button>
+                <button>Cancel</button>
+            </div>
+        </section>
+    </div>
+    <script src="./countdown-script.js"></script>
+</body>
+</html>
